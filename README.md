@@ -1,5 +1,4 @@
-# Uma breve mensagem à comunidade IMEANA
-Caro estudante,
+# Uma breve mensagem à comunidade IME
 
 Espero que você esteja bem! Sou Lucas Amaral Taylor, aluno do Instituto de Matemática e Estatística da USP (IME-USP), e estou escrevendo para compartilhar uma ferramenta que desenvolvi pensando em facilitar a vida da nossa comunidade acadêmica.
 
