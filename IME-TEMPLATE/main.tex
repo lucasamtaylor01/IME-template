@@ -1,0 +1,155 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Apresentação Beamer
+% Modelo LaTeX
+% Versão 2.0 (8 de março de 2022)
+%
+% Este modelo se origina de:
+% https://www.LaTeXTemplates.com
+%
+% Autor:
+% Vel (vel@latextemplates.com)
+%
+% Licença:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Este modelo de apresentação é uma adaptação do modelo mencionado acima. Foi criado por Giovanni Spadaro e está disponível no GitHub (https://github.com/Giovo17/presentation-template-unict-lm-data).
+%
+% Esta variação foi criada por Lucas Amaral Taylor com o intuito de criar uma versão especial para os alunos de Matemática e Estatística da Universidade de São Paulo. (https://github.com/lucasamtaylor01/IME-template)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACOTES E OUTRAS CONFIGURAÇÕES DO DOCUMENTO
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+	11pt, % Define o tamanho padrão da fonte, opções incluem: 8pt, 9pt, 10pt, 11pt, 12pt, 14pt, 17pt, 20pt
+	%t, % Descomente para alinhar verticalmente o conteúdo de todos os slides ao topo, em vez de centralizado
+	%aspectratio=169, % Descomente para definir a proporção em 16:9, que corresponde à proporção de telas e projetores 1080p e 4K
+]{beamer}
+
+\graphicspath{{img/}} % Especifica onde procurar imagens incluídas (barra final obrigatória)
+\usepackage[alf]{abntex2cite}
+\usepackage{booktabs} % Permite o uso de \toprule, \midrule e \bottomrule para melhores linhas em tabelas
+\usepackage{parskip} 
+%----------------------------------------------------------------------------------------
+%	SELECIONAR O TEMA DE LAYOUT
+%----------------------------------------------------------------------------------------
+
+% O Beamer vem com vários temas de layout padrão que mudam as cores e layouts dos slides. Abaixo está uma lista de todos os temas disponíveis, descomente cada um para ver como ficam.
+
+\usetheme{Boadilla}
+
+%----------------------------------------------------------------------------------------
+%	SELECIONAR O TEMA DE CORES
+%----------------------------------------------------------------------------------------
+
+% Definição de cores personalizadas
+\definecolor{primaryColor}{RGB}{20,45,105}
+\definecolor{secondaryColor}{RGB}{0,100,160}
+
+% Aplicação das cores no tema
+\setbeamercolor{structure}{fg=primaryColor}
+\setbeamercolor{palette primary}{bg=primaryColor, fg=white}
+\setbeamercolor{palette secondary}{bg=secondaryColor, fg=white}
+\setbeamercolor{title}{bg=secondaryColor, fg=white}
+
+\usetheme{Boadilla}
+
+%----------------------------------------------------------------------------------------
+%	SELECIONAR O TEMA DE FONTES E FONTES
+%----------------------------------------------------------------------------------------
+
+% O Beamer vem com vários temas de fontes para mudar facilmente as fontes usadas em várias partes da apresentação. Veja os comentários ao lado de cada um para decidir se deseja usá-lo. Observe que opções adicionais podem ser especificadas para vários desses temas de fonte, consulte a documentação do Beamer para mais informações.
+
+\usefonttheme{default} % Tipografia usando a fonte sans serif padrão
+%\usefonttheme{serif} % Tipografia usando a fonte serif padrão (verifique se uma fonte sans não está sendo definida como a fonte padrão se você usar esta opção!)
+%\usefonttheme{structurebold} % Tipografia em negrito para textos estruturais importantes (títulos, cabeçalhos, rodapés, barra lateral, etc)
+%\usefonttheme{structureitalicserif} % Tipografia em itálico serif para textos estruturais importantes (títulos, cabeçalhos, rodapés, barra lateral, etc)
+%\usefonttheme{structuresmallcapsserif} % Tipografia em caixa alta serif para textos estruturais importantes (títulos, cabeçalhos, rodapés, barra lateral, etc)
+
+%------------------------------------------------
+
+%\usepackage{mathptmx} % Usa a fonte Times para texto serif
+\usepackage{palatino} % Usa a fonte Palatino para texto serif
+
+%\usepackage{helvet} % Usa a fonte Helvetica para texto sans serif
+\usepackage[default]{opensans} % Usa a fonte Open Sans para texto sans serif
+%\usepackage[default]{FiraSans} % Usa a fonte Fira Sans para texto sans serif
+%\usepackage[default]{lato} % Usa a fonte Lato para texto sans serif
+
+%----------------------------------------------------------------------------------------
+%	SELECIONAR O TEMA INTERNO
+%----------------------------------------------------------------------------------------
+\useinnertheme{circles}
+
+
+%---------------------------------------------------------------------------------------
+%	SELECIONAR O TEMA EXTERNO
+%----------------------------------------------------------------------------------------
+
+\useoutertheme{miniframes}
+\setbeamertemplate{navigation symbols}{} % Descomente esta linha para remover os símbolos de navegação da parte inferior de todos os slides
+
+%----------------------------------------------------------------------------------------
+%	INFORMAÇÕES DA APRESENTAÇÃO
+%----------------------------------------------------------------------------------------
+
+\title[Título completo]{Título}
+\author{Nome} 
+\institute[IME-USP]{Instituto de Matemática e Estatística \\ (IME-USP)} 
+\date[Ano]{MÊS /ANO} 
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	SLIDE DE TÍTULO
+%----------------------------------------------------------------------------------------
+
+\begin{frame}
+
+        \begin{figure}
+		\includegraphics[width=0.45\linewidth]{img/logo_IME.png}
+	\end{figure}
+ 
+	\titlepage % Exibe o slide de título, criado automaticamente usando o texto inserido no bloco de INFORMAÇÕES DA APRESENTAÇÃO acima
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	SLIDE DE ÍNDICE
+%----------------------------------------------------------------------------------------
+
+% O índice exibe as seções e subseções que aparecem na sua apresentação, especificadas com os comandos padrão \section e \subsection. Você pode exibir todas as seções e subseções em um slide com \tableofcontents, ou exibir cada seção de uma vez nos slides subsequentes com \tableofcontents[pausesections]. O último é útil se você quiser percorrer cada seção e mencionar o que será discutido.
+
+\begin{frame}
+	\frametitle{Estrutura da apresentação} % Título do slide, remova este comando para não exibir o título
+	
+	\tableofcontents % Exibe o índice (todas as seções em um slide)
+	%\tableofcontents[pausesections] % Exibe o índice (divide as seções em slides separados)
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	CORPO DOS SLIDES DA APRESENTAÇÃO
+%----------------------------------------------------------------------------------------
+
+
+\include{sections/Section00}
+\include{sections/Section01}
+\include{sections/Section02}
+%----------------------------------------------------------------------------------------
+%	SLIDE DE ENCERRAMENTO
+%----------------------------------------------------------------------------------------
+
+\begin{frame}
+	\begin{center}
+		{\Huge Obrigado pela atenção!}
+	\end{center}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
