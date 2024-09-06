@@ -1,5 +1,4 @@
-# Template de Apresentação para a Comunidade IME-USP no Overleaf 🎓💻
-
+# Uma breve mensagem à comunidade IMEANA
 Caro estudante,
 
 Espero que você esteja bem! Sou Lucas Amaral Taylor, aluno do Instituto de Matemática e Estatística da USP (IME-USP), e estou escrevendo para compartilhar uma ferramenta que desenvolvi pensando em facilitar a vida da nossa comunidade acadêmica.
