@@ -9,5 +9,3 @@ Espero que o template seja útil para você e para a comunidade IME, assim como 
 Tudo de bom,
 
 *Lucas Amaral Taylor*
-
-Aluno do IME-USP 🎓
