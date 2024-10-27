@@ -6,7 +6,7 @@ Compartilho este template para ajudar na criação de slides de apresentações 
 
 Espero que seja útil para você e para a comunidade!
 
-Abraços,
+Tudo de bom,
 
 Lucas Amaral Taylor ✨
 
