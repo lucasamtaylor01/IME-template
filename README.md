@@ -11,3 +11,9 @@ Espero que o template seja útil para você e para a comunidade IME, assim como 
 Tudo de bom,
 
 *Lucas Amaral Taylor* ✨
+
+---
+
+# Licença
+
+Este código está licenciado sob a **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**. Isso permite que você compartilhe e adapte o conteúdo para fins não comerciais, desde que atribua o crédito apropriado e distribua suas contribuições sob a mesma licença. Para mais detalhes, consulte [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
