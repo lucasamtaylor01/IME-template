@@ -8,7 +8,7 @@ Espero que seja útil para você e para a comunidade!
 
 Tudo de bom,
 
-Lucas Amaral Taylor ✨
+*Lucas Amaral Taylor* ✨
 
 ---
 
