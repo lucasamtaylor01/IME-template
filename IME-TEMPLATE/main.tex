@@ -1,64 +1,63 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Beamer Presentation
-% LaTeX Template
+% Beamer Presentation - LaTeX Template
 % Version 2.0 (March 8, 2022)
-%
-% This template originates from:
-% https://www.LaTeXTemplates.com
-%
-% Author:
-% Vel (vel@latextemplates.com)
-%
-% License:
-% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
-%
+% Original Template: https://www.LaTeXTemplates.com
+% Author: Vel (vel@latextemplates.com)
+% License: CC BY-NC-SA 4.0
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Este modelo de apresentação é uma adaptação do modelo mencionado acima. Foi criado por Giovanni Spadaro e está disponível no GitHub (https://github.com/Giovo17/presentation-template-unict-lm-data).
+% Este modelo de apresentação foi criado por Giovanni Spadaro 
+% https://github.com/Giovo17/presentation-template-unict-lm-data
 %
-% Esta variação foi criada por Lucas Amaral Taylor com o intuito de criar uma versão especial para os alunos de Matemática e Estatística da Universidade de São Paulo. (https://github.com/lucasamtaylor01/IME-template)
+% e adaptado por Lucas Amaral Taylor para criar uma versão especial 
+% para os alunos de Matemática e Estatística da USP (IME-USP).
+% https://github.com/lucasamtaylor01/IME-template
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[
-	11pt, % Define o tamanho padrão da fonte, opções incluem: 8pt, 9pt, 10pt, 11pt, 12pt, 14pt, 17pt, 20pt
-	%t, % Descomente para alinhar verticalmente o conteúdo de todos os slides ao topo, em vez de centralizado
-	%aspectratio=169, % Descomente para definir a proporção em 16:9, que corresponde à proporção de telas e projetores 1080p e 4K
+	11pt, % Tamanho padrão da fonte
+	% t, % Alinhar verticalmente ao topo
+	% aspectratio=169, % Definir proporção 16:9
 ]{beamer}
 
-\graphicspath{{img/}} % Especifica onde procurar imagens incluídas
-\usepackage[alf]{abntex2cite} % Citações no formato ABNT
+% Caminho para imagens
+\graphicspath{{img/}}
+
+% Pacotes adicionais
+\usepackage[alf]{abntex2cite} % Citações ABNT
 \usepackage{booktabs} % Linhas de tabela aprimoradas
-\usepackage{palatino} % Usa a fonte Palatino para texto serif
-\usepackage[default]{opensans} % Usa a fonte Open Sans para texto sans serif
+\usepackage{palatino} % Fonte Palatino
+\usepackage[default]{opensans} % Fonte Open Sans
 
 %----------------------------------------------------------------------------------------
-%	SELECIONAR O TEMA DE LAYOUT E CORES
+%	SELEÇÃO DE LAYOUT E CORES
 %----------------------------------------------------------------------------------------
 
 \usetheme{Boadilla} % Tema de layout
 
 % Definição de cores personalizadas
-\definecolor{primaryColor}{RGB}{20,45,105} % Cor primária para ser usada no cabeçalho e outros elementos
-\definecolor{secondaryColor}{RGB}{0,100,160}
+\definecolor{primaryColor}{RGB}{20,45,105} % Cor primária
+\definecolor{secondaryColor}{RGB}{0,100,160} % Cor secundária
 
 % Aplicação das cores no tema
 \setbeamercolor{structure}{fg=primaryColor}
 \setbeamercolor{palette primary}{bg=primaryColor, fg=white}
 \setbeamercolor{palette secondary}{bg=secondaryColor, fg=white}
-\setbeamercolor{title}{bg=secondaryColor, fg=white}
+\setbeamercolor{title}{bg=primaryColor, fg=white} % Cor do título principal
 
-% Definição da cor primária no cabeçalho
+% Cores no cabeçalho
 \setbeamercolor{headline}{bg=secondaryColor, fg=white}
 \setbeamercolor{section in head/foot}{bg=primaryColor, fg=white}
 \setbeamercolor{subsection in head/foot}{bg=secondaryColor, fg=white}
 
 % Configurações de cores para o rodapé
-\setbeamercolor{author in head/foot}{bg=secondaryColor, fg=white} % NOME
-\setbeamercolor{title in head/foot}{bg=primaryColor, fg=white} % Título
-\setbeamercolor{date in head/foot}{bg=secondaryColor, fg=white} % Ano
+\setbeamercolor{author in head/foot}{bg=primaryColor, fg=white} % Nome
+\setbeamercolor{title in head/foot}{bg=secondaryColor, fg=white} % Título
+\setbeamercolor{date in head/foot}{bg=primaryColor, fg=white} % Ano
 \setbeamercolor{page number in head/foot}{bg=primaryColor, fg=white} % Página
 
+% Temas internos e externos
 \useinnertheme{circles} % Tema interno
 \useoutertheme{miniframes} % Tema externo
 \setbeamertemplate{navigation symbols}{} % Remove símbolos de navegação
@@ -97,12 +96,12 @@
 \end{frame}
 
 %----------------------------------------------------------------------------------------
-%	CORPO DOS SLIDES DA APRESENTAÇÃO
+%	SEÇÕES DO CORPO DA APRESENTAÇÃO
 %----------------------------------------------------------------------------------------
 
-\include{sections/Section00}
-\include{sections/Section01}
-\include{sections/Section02}
+\include{sections/Section00} % Seção 00
+\include{sections/Section01} % Seção 01
+\include{sections/Section02} % Seção 02
 
 %----------------------------------------------------------------------------------------
 %	SLIDE DE ENCERRAMENTO
