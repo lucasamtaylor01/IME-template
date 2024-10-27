@@ -14,6 +14,6 @@ Lucas Amaral Taylor ✨
 
 # Licença 📜 / License 📜
 
-Este template, criado por [**Giovanni Spadaro**](https://github.com/Giovo17/presentation-template-unict-lm-data) e adaptado por **Lucas Amaral Taylor**, está sob a **Creative Commons Attribution-NonCommercial-ShareAlike 4.0**. Mais detalhes no arquivo [`LICENSE`](./LICENSE) ou em [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Este template está sob a **Creative Commons Attribution-NonCommercial-ShareAlike 4.0**. Mais detalhes no arquivo [`LICENSE`](./LICENSE) ou em [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-This template, created by [**Giovanni Spadaro**](https://github.com/Giovo17/presentation-template-unict-lm-data) and adapted by **Lucas Amaral Taylor**, is licensed under **Creative Commons Attribution-NonCommercial-ShareAlike 4.0**. More details in the [`LICENSE`](./LICENSE) file or at [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+This template is licensed under **Creative Commons Attribution-NonCommercial-ShareAlike 4.0**. More details in the [`LICENSE`](./LICENSE) file or at [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
