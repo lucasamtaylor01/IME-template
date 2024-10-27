@@ -1,4 +1,4 @@
-# Uma breve mensagem à comunidade IME
+# Uma breve mensagem à comunidade IME 📢
 
 Caro estudante,
 
@@ -14,6 +14,8 @@ Tudo de bom,
 
 ---
 
-# Licença
+# Licença 📜 / License 📜
 
-Este código está licenciado sob a **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**. Isso permite que você compartilhe e adapte o conteúdo para fins não comerciais, desde que atribua o crédito apropriado e distribua suas contribuições sob a mesma licença. Para mais detalhes, consulte [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Este template, criado por **Giovanni Spadaro** e adaptado por **Lucas Amaral Taylor**, está sob a **Creative Commons Attribution-NonCommercial-ShareAlike 4.0**. Mais detalhes no arquivo `LICENSE` ou em [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+This template, created by **Giovanni Spadaro** and adapted by **Lucas Amaral Taylor**, is licensed under **Creative Commons Attribution-NonCommercial-ShareAlike 4.0**. More details in the `LICENSE` file or at [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
