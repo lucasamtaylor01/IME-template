@@ -1,0 +1,118 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation - LaTeX Template
+% Version 2.0 (March 8, 2022)
+% Original Template: https://www.LaTeXTemplates.com
+% Author: Vel (vel@latextemplates.com)
+% License: CC BY-NC-SA 4.0
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Este modelo de apresentação foi criado por Giovanni Spadaro 
+% https://github.com/Giovo17/presentation-template-unict-lm-data
+%
+% e adaptado por Lucas Amaral Taylor para criar uma versão especial 
+% para os alunos de Matemática e Estatística da USP (IME-USP).
+% https://github.com/lucasamtaylor01/IME-template
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[
+	11pt, % Tamanho padrão da fonte
+	% t, % Alinhar verticalmente ao topo
+	% aspectratio=169, % Definir proporção 16:9
+]{beamer}
+
+% Caminho para imagens
+\graphicspath{{img/}}
+
+% Pacotes adicionais
+\usepackage[alf]{abntex2cite} % Citações ABNT
+\usepackage{booktabs} % Linhas de tabela aprimoradas
+\usepackage{palatino} % Fonte Palatino
+\usepackage[default]{opensans} % Fonte Open Sans
+
+%----------------------------------------------------------------------------------------
+%	SELEÇÃO DE LAYOUT E CORES
+%----------------------------------------------------------------------------------------
+
+\usetheme{Boadilla} % Tema de layout
+
+% Definição de cores personalizadas
+\definecolor{primaryColor}{RGB}{20,45,105} % Cor primária
+\definecolor{secondaryColor}{RGB}{0,100,160} % Cor secundária
+
+% Aplicação das cores no tema
+\setbeamercolor{structure}{fg=primaryColor}
+\setbeamercolor{palette primary}{bg=primaryColor, fg=white}
+\setbeamercolor{palette secondary}{bg=secondaryColor, fg=white}
+\setbeamercolor{title}{bg=primaryColor, fg=white} % Cor do título principal
+
+% Cores no cabeçalho
+\setbeamercolor{headline}{bg=secondaryColor, fg=white}
+\setbeamercolor{section in head/foot}{bg=primaryColor, fg=white}
+\setbeamercolor{subsection in head/foot}{bg=secondaryColor, fg=white}
+
+% Configurações de cores para o rodapé
+\setbeamercolor{author in head/foot}{bg=primaryColor, fg=white} % Nome
+\setbeamercolor{title in head/foot}{bg=secondaryColor, fg=white} % Título
+\setbeamercolor{date in head/foot}{bg=primaryColor, fg=white} % Ano
+\setbeamercolor{page number in head/foot}{bg=primaryColor, fg=white} % Página
+
+% Temas internos e externos
+\useinnertheme{circles} % Tema interno
+\useoutertheme{miniframes} % Tema externo
+\setbeamertemplate{navigation symbols}{} % Remove símbolos de navegação
+
+%----------------------------------------------------------------------------------------
+%	INFORMAÇÕES DA APRESENTAÇÃO
+%----------------------------------------------------------------------------------------
+
+\title[Título]{Título completo}
+\author[Nome abreviado]{Nome} 
+\institute[IME-USP]{Instituto de Matemática e Estatística \\ (IME-USP)} 
+\date[Ano]{MÊS / ANO} 
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	SLIDE DE TÍTULO
+%----------------------------------------------------------------------------------------
+
+\begin{frame}
+    \begin{figure}
+        \includegraphics[width=0.45\linewidth]{img/logo_IME.png}
+    \end{figure}
+    \titlepage % Exibe o slide de título
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	SLIDE DE ÍNDICE
+%----------------------------------------------------------------------------------------
+
+\begin{frame}
+    \frametitle{Estrutura da apresentação} % Título do slide
+    \tableofcontents % Exibe o índice
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	SEÇÕES DO CORPO DA APRESENTAÇÃO
+%----------------------------------------------------------------------------------------
+
+\include{sections/section00}
+\include{sections/section01} 
+\include{sections/section02} 
+
+%----------------------------------------------------------------------------------------
+%	SLIDE DE ENCERRAMENTO
+%----------------------------------------------------------------------------------------
+
+\begin{frame}
+    \begin{center}
+        {\Huge Obrigado pela atenção!}
+    \end{center}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
