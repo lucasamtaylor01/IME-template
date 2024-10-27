@@ -39,7 +39,7 @@
 \usetheme{Boadilla} % Tema de layout
 
 % Definição de cores personalizadas
-\definecolor{primaryColor}{RGB}{20,45,105}
+\definecolor{primaryColor}{RGB}{20,45,105} % Cor primária para ser usada no cabeçalho e outros elementos
 \definecolor{secondaryColor}{RGB}{0,100,160}
 
 % Aplicação das cores no tema
@@ -47,6 +47,17 @@
 \setbeamercolor{palette primary}{bg=primaryColor, fg=white}
 \setbeamercolor{palette secondary}{bg=secondaryColor, fg=white}
 \setbeamercolor{title}{bg=secondaryColor, fg=white}
+
+% Definição da cor primária no cabeçalho
+\setbeamercolor{headline}{bg=secondaryColor, fg=white}
+\setbeamercolor{section in head/foot}{bg=primaryColor, fg=white}
+\setbeamercolor{subsection in head/foot}{bg=secondaryColor, fg=white}
+
+% Configurações de cores para o rodapé
+\setbeamercolor{author in head/foot}{bg=secondaryColor, fg=white} % NOME
+\setbeamercolor{title in head/foot}{bg=primaryColor, fg=white} % Título
+\setbeamercolor{date in head/foot}{bg=secondaryColor, fg=white} % Ano
+\setbeamercolor{page number in head/foot}{bg=primaryColor, fg=white} % Página
 
 \useinnertheme{circles} % Tema interno
 \useoutertheme{miniframes} % Tema externo
