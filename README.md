@@ -12,8 +12,6 @@ Tudo de bom,
 
 ---
 
-# Licença 📜 / License 📜
+# Licença 📜
 
 Este template está sob a **Creative Commons Attribution-NonCommercial-ShareAlike 4.0**. Mais detalhes no arquivo [`LICENSE`](./LICENSE) ou em [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-
-This template is licensed under **Creative Commons Attribution-NonCommercial-ShareAlike 4.0**. More details in the [`LICENSE`](./LICENSE) file or at [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
