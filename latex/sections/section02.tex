@@ -1,0 +1,88 @@
+\section{Exemplos com código} % Seções são adicionadas para organizar sua apresentação em blocos discretos, todas as seções e subseções são automaticamente exibidas no índice como uma visão geral da apresentação, mas NÃO são exibidas como slides separados.
+
+%------------------------------------------------
+\begin{frame}[fragile]
+    \frametitle{Python}
+    
+    \begin{python}
+def calcular_dobro(x):
+    """Retorna o dobro do número"""
+    return 2 * x
+
+# Testando a função
+numero = 5
+resultado = calcular_dobro(numero)
+print(f"O dobro de {numero} é {resultado}")
+    \end{python}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}[fragile]
+    \frametitle{C}
+    
+    \begin{clang}
+#include <stdio.h>
+
+int main() {
+    int numero = 5;
+    int dobro = 2 * numero;
+    
+    printf("O dobro de %d eh %d\n", numero, dobro);
+    return 0;
+}
+    \end{clang}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}[fragile]
+    \frametitle{C++}
+    
+    \begin{cpp}
+#include <iostream>
+using namespace std;
+
+int main() {
+    int numero = 5;
+    int dobro = 2 * numero;
+    
+    cout << "O dobro de " << numero;
+    cout << " eh " << dobro << endl;
+    return 0;
+}
+    \end{cpp}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}[fragile]
+    \frametitle{R}
+    
+    \begin{rlang}
+# Função para calcular o dobro
+calcular_dobro <- function(x) {
+  return(2 * x)
+}
+
+# Testando a função
+numero <- 5
+resultado <- calcular_dobro(numero)
+print(paste("O dobro de", numero, "é", resultado))
+    \end{rlang}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}[fragile]
+    \frametitle{Java}
+    
+    \begin{java}
+public class Exemplo {
+    public static void main(String[] args) {
+        int numero = 5;
+        int dobro = 2 * numero;
+        
+        System.out.println("O dobro de " + numero +
+                         " eh " + dobro);
+    }
+}
+    \end{java}
+\end{frame}
