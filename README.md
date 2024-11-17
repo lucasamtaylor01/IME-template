@@ -4,8 +4,6 @@ Olá!
 
 Compartilho este template para ajudar na criação de slides de apresentações acadêmicas. Ele foi pensado para facilitar o processo, com um visual profissional e fácil de ajustar — perfeito para seminários, defesas e eventos do IME.
 
-Espero que seja útil para você e para a comunidade!
-
 Tudo de bom,
 
 *Lucas Amaral Taylor* ✨
