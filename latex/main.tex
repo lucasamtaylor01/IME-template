@@ -1,0 +1,114 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation - LaTeX Template
+% Version 2.0 (March 8, 2022)
+% Original Template: https://www.LaTeXTemplates.com
+% Author: Vel (vel@latextemplates.com)
+% License: CC BY-NC-SA 4.0
+
+% Este modelo de apresentação foi 
+% criado a partir do modelo de Giovanni Spadaro.
+% Disponível em: https://github.com/Giovo17/presentation-template-unict-lm-data
+%
+% Adaptado por Lucas Amaral Taylor para criar uma versão especial 
+% para os alunos de Matemática e Estatística da USP (IME-USP).
+% Disponível em: https://github.com/lucasamtaylor01/IME-template
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+% CLASSE DO DOCUMENTO E CONFIGURAÇÕES BÁSICAS
+%----------------------------------------------------------------------------------------
+\documentclass[
+    11pt,               % Tamanho padrão da fonte
+    % t,                % Alinhar verticalmente ao topo
+    %aspectratio=169,   % Definir proporção 16:9
+]{beamer}
+\graphicspath{{img/}}         % Define o diretório das imagens
+
+%----------------------------------------------------------------------------------------
+% PACOTES NECESSÁRIOS
+%----------------------------------------------------------------------------------------
+\usepackage{
+    booktabs,     % Melhora a aparência das linhas em tabelas
+    palatino,     % Define Palatino como fonte principal
+    subcaption    % Suporte para subfiguras
+}
+\usepackage[default]{opensans}  % Define Open Sans como fonte secundária
+\input{config/code_langs}       % Importa configurações para highlight de código
+
+%----------------------------------------------------------------------------------------
+% CONFIGURAÇÃO DO TEMA
+%----------------------------------------------------------------------------------------
+% Tema Base
+\usetheme{Boadilla}                          % Define o tema principal
+\useinnertheme{circles}                      % Tema interno com círculos
+\useoutertheme{miniframes}                   % Tema externo com miniframes
+\setbeamertemplate{navigation symbols}{}     % Remove símbolos de navegação
+
+% Cores Personalizadas
+\definecolor{primaryColor}{RGB}{20,45,105}   % Cor primária - azul escuro
+\definecolor{secondaryColor}{RGB}{0,100,160} % Cor secundária - azul médio
+
+% Configurações de Cores
+\setbeamercolor{structure}{fg=primaryColor}
+\setbeamercolor{palette primary}{bg=primaryColor, fg=white}
+\setbeamercolor{palette secondary}{bg=secondaryColor, fg=white}
+\setbeamercolor{title}{bg=primaryColor, fg=white}
+
+% Cores do Cabeçalho e Rodapé
+\setbeamercolor{headline}{bg=secondaryColor, fg=white}
+\setbeamercolor{section in head/foot}{bg=primaryColor, fg=white}
+\setbeamercolor{subsection in head/foot}{bg=secondaryColor, fg=white}
+\setbeamercolor{author in head/foot}{bg=primaryColor, fg=white}
+\setbeamercolor{title in head/foot}{bg=secondaryColor, fg=white}
+\setbeamercolor{date in head/foot}{bg=primaryColor, fg=white}
+\setbeamercolor{page number in head/foot}{bg=primaryColor, fg=white}
+
+%----------------------------------------------------------------------------------------
+% BIBLIOGRAFIA
+%----------------------------------------------------------------------------------------
+\usepackage[style=alphabetic,backend=biber]{biblatex}
+\addbibresource{bibliografia.bib}
+
+%----------------------------------------------------------------------------------------
+% INFORMAÇÕES DA APRESENTAÇÃO
+%----------------------------------------------------------------------------------------
+\title[Título]{Título completo}          % [Versão curta]{Versão completa}
+\author[Nome abreviado]{Nome}            % [Versão curta]{Nome completo}
+\institute[IME-USP]{Instituto de Matemática e Estatística \\ (IME-USP)}
+\date[Ano]{MÊS / ANO}
+
+%----------------------------------------------------------------------------------------
+% INÍCIO DO DOCUMENTO
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+% Slide de título com logo
+\begin{frame}
+    \begin{figure}
+        \includegraphics[width=0.45\linewidth]{img/logo_IME.png}
+    \end{figure}
+    \titlepage
+\end{frame}
+
+% Sumário
+\begin{frame}
+    \frametitle{Estrutura da apresentação}
+    \tableofcontents
+\end{frame}
+
+% Inclusão das seções
+\include{sections/section00}
+\include{sections/section01}
+\include{sections/section02}
+\include{sections/section03}
+
+% Slide final
+\begin{frame}
+    \begin{center}
+        {\Huge Fim da apresentação!}
+    \end{center}
+\end{frame}
+
+\end{document}
+
+
