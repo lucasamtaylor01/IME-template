@@ -16,7 +16,7 @@ Tudo de bom,
       git clone https://github.com/lucasamtaylor01/IME-template.git
       ```
 2. Localize o `/latex`
-4. Abra no seu editor \LaTeX favorito
+4. Abra no seu editor LaTeX favorito
 5. Instale as dependências necessárias (se houver).
 
 > ⚠️ Recomendo que use a versão do disponível no [overleaf](https://www.overleaf.com/latex/templates/template-de-apresentacao-ime-usp/rygbgpftsdbk). Utilize essa versão para indicar melhorias e sugestões.
