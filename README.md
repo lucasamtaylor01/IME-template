@@ -1,14 +1,7 @@
-# Uma breve mensagem à comunidade IME 📢
+# IME-template 🎓
 
-Olá!
-
-Compartilho este template para ajudar na criação de slides de apresentações acadêmicas. Ele foi pensado para facilitar o processo, com um visual profissional e fácil de ajustar — perfeito para seminários, defesas e eventos do IME.
-
-Tudo de bom,
-
-*Lucas Amaral Taylor* ✨
-
----
+## Descirção 📢
+Este template para ajudar na criação de slides de apresentações acadêmicas. Ele foi pensado para facilitar o processo, com um visual profissional e fácil de ajustar — perfeito para seminários, defesas e eventos do IME.
 
 ## 🚀 Como começar?
 1. Clone o repositório:
@@ -22,6 +15,17 @@ Tudo de bom,
 > ⚠️ Recomendo que use a versão do disponível no [overleaf](https://www.overleaf.com/latex/templates/template-de-apresentacao-ime-usp/rygbgpftsdbk). Utilize essa versão para indicar melhorias e sugestões.
 
 
-# Licença 📜
+## 👥 Créditos
 
-Este template está sob a **Creative Commons Attribution-NonCommercial-ShareAlike 4.0**. Mais detalhes no arquivo [`LICENSE`](./LICENSE) ou em [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Este modelo foi adaptado a partir do template de Giovanni Spadaro, disponível em:  
+🔗 [https://github.com/Giovo17/presentation-template-unict-lm-data](https://github.com/Giovo17/presentation-template-unict-lm-data)
+
+A estrutura original segue o modelo de Vel, disponível em [LaTeXTemplates](https://latextemplates.com/):  
+🔗 [https://www.latextemplates.com/template/beamer-presentation](https://www.latextemplates.com/template/beamer-presentation)
+
+A ambos, meus sinceros agradecimentos.
+
+## 📜 Licença
+
+Este template está sob a **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International**.  
+Veja o arquivo [`LICENSE`](./LICENSE) ou acesse [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) para mais informações.
