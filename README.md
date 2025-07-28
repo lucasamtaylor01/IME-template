@@ -1,6 +1,6 @@
 # IME-template 🎓
 
-## Descirção 📢
+## Descrição 📢
 Este template para ajudar na criação de slides de apresentações acadêmicas. Ele foi pensado para facilitar o processo, com um visual profissional e fácil de ajustar — perfeito para seminários, defesas e eventos do IME.
 
 ## 🚀 Como começar?
