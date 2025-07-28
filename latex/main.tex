@@ -78,6 +78,43 @@
 \date[Ano]{MÊS / ANO}
 
 %----------------------------------------------------------------------------------------
+% CAIXAS COLORIDAS (Tons equilibrados)
+%----------------------------------------------------------------------------------------
+
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+
+% Tons ajustados
+\definecolor{Azul1}{HTML}{368FC5} % Teorema
+\definecolor{Azul2}{HTML}{5EA9D6} % Definição
+\definecolor{Azul3}{HTML}{8ABFE0} % Proposição
+\definecolor{Azul4}{HTML}{B5D4EA} % Lema
+\definecolor{Azul5}{HTML}{DBE9F4} % Corolário
+\definecolor{Azul6}{HTML}{BFDCEC} % Observação
+\definecolor{Azul7}{HTML}{A6CDE6} % Exemplo
+
+% Caixa de Teorema
+\newtcolorbox{CaixaTeo}[1]{colback=Azul1!10!white, colframe=Azul1, title={\textbf{Teorema:} #1}, coltitle=black}
+
+% Caixa de Definição
+\newtcolorbox{CaixaDef}[1]{colback=Azul2!10!white, colframe=Azul2, title={\textbf{Definição:} #1}, coltitle=black}
+
+% Caixa de Proposição
+\newtcolorbox{CaixaProp}[1]{colback=Azul3!10!white, colframe=Azul3, title={\textbf{Proposição:} #1}, coltitle=black}
+
+% Caixa de Lema
+\newtcolorbox{CaixaLema}[1]{colback=Azul4!10!white, colframe=Azul4, title={\textbf{Lema:} #1}, coltitle=black}
+
+% Caixa de Corolário
+\newtcolorbox{CaixaCoro}[1]{colback=Azul5!20!white, colframe=Azul5, title={\textbf{Corolário:} #1}, coltitle=black}
+
+% Caixa de Observação
+\newtcolorbox{CaixaObs}[1]{colback=Azul6!10!white, colframe=Azul6, title={\textbf{Observação:} #1}, coltitle=black}
+
+% Caixa de Exemplo
+\newtcolorbox{CaixaExem}[1]{colback=Azul7!10!white, colframe=Azul7, title={\textbf{Exemplo:} #1}, coltitle=black}
+
+%----------------------------------------------------------------------------------------
 % INÍCIO DO DOCUMENTO
 %----------------------------------------------------------------------------------------
 \begin{document}
@@ -101,6 +138,7 @@
 \include{sections/section01}
 \include{sections/section02}
 \include{sections/section03}
+\include{sections/section04}
 
 % Slide final
 \begin{frame}

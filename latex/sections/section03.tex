@@ -1,6 +1,46 @@
-\section{Conclusão} % Seções são adicionadas para organizar sua apresentação em blocos discretos, todas as seções e subseções são automaticamente exibidas no índice como uma visão geral da apresentação, mas NÃO são exibidas como slides separados.
+\section{Caixas coloridas}
 
-\begin{frame}{Referências}
-    \nocite{*}
-    \printbibliography[heading=none]
+\begin{frame}{Caixas: Teorema e Definição}
+	\begin{CaixaTeo}{Teorema Fundamental da Aritmética}
+		Todo inteiro $n > 1$ pode ser escrito de forma única como um produto de primos, a menos da ordem dos fatores.
+	\end{CaixaTeo}
+	
+	\begin{CaixaDef}{Número Primo}
+		Um número natural $p > 1$ é primo se seus únicos divisores positivos são $1$ e $p$.
+	\end{CaixaDef}
+\end{frame}
+
+\begin{frame}{Caixas: Proposição e Lema}
+	\begin{CaixaProp}{Divisibilidade}
+		Se $a \mid b$ e $b \mid c$, então $a \mid c$.
+	\end{CaixaProp}
+	
+	\begin{CaixaLema}{Lema de Euclides}
+		Se um primo $p$ divide o produto $ab$, então $p$ divide $a$ ou $p$ divide $b$.
+	\end{CaixaLema}
+\end{frame}
+
+\begin{frame}{Caixas: Corolário e Observação}
+	\begin{CaixaCoro}{Infinidade de Primos}
+		Existem infinitos números primos.
+	\end{CaixaCoro}
+	
+	\begin{CaixaObs}{Máximo Divisor Comum}
+		O máximo divisor comum de dois inteiros pode ser calculado pelo Algoritmo de Euclides.
+	\end{CaixaObs}
+\end{frame}
+
+\begin{frame}{Caixas: Exemplo e Nota}
+	\begin{CaixaExem}{MDC com Algoritmo de Euclides}
+		Para calcular $\gcd(48,18)$:
+		\begin{equation*}
+			48 = 2 \cdot 18 + 12,\quad 18 = 1 \cdot 12 + 6,\quad 12 = 2 \cdot 6 + 0.
+		\end{equation*}
+		Logo, $\gcd(48,18) = 6$.
+	\end{CaixaExem}
+	
+	\begin{CaixaObs}{Fato curioso}
+		O número $26$ é o único número natural que está entre um cubo perfeito e um quadrado perfeito.
+	\end{CaixaObs}
+	
 \end{frame}
